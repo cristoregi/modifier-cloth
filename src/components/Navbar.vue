@@ -30,9 +30,15 @@
 					</a>
 				</div>
 				<div>
-					<span class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
-						<i class="fas fa-user"></i> Profile
-					</span>
+					<router-link
+						class="nav-link"
+						:to="{ name: 'profile' }"
+						active-class="active"
+					>
+						<span class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
+							<i class="fas fa-user"></i> Profile
+						</span>
+					</router-link>
 				</div>
 				<div>
 					<span class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
