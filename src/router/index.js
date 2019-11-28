@@ -6,6 +6,8 @@ import Shirts from '../views/Shirts.vue'
 import Tshirts from '../views/Tshirts.vue'
 import Profile from '../views/Profile.vue'
 import Details from '../views/ItemDetails.vue'
+import Cart from '../views/Cart.vue'
+import Jackets from '../views/Jackets.vue'
 
 Vue.use(VueRouter)
 
@@ -31,6 +33,11 @@ const routes = [
     component: Shirts
   },
   {
+    path: '/shop/jackets',
+    name: 'jackets',
+    component: Jackets
+  },
+  {
     path: '/profile',
     name: 'profile',
     component: Profile
@@ -39,6 +46,11 @@ const routes = [
     path: '/item/details',
     name: 'details',
     component: Details
+  },
+  {
+    path: '/item/cart',
+    name: 'cart',
+    component: Cart
   },
   {
     path: '/about',

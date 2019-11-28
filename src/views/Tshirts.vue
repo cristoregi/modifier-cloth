@@ -16,7 +16,7 @@
 									:to="{ name: 'shop' }"
 									active-class="active"
 								>
-									All Category
+									All
 								</router-link>
 							</td>
 						</tr>
