@@ -8,6 +8,8 @@ import Profile from '../views/Profile.vue'
 import Details from '../views/ItemDetails.vue'
 import Cart from '../views/Cart.vue'
 import Jackets from '../views/Jackets.vue'
+import Login from '../views/Login.vue'
+import Checkout from '../views/Checkout.vue'
 
 Vue.use(VueRouter)
 
@@ -16,6 +18,11 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: Login
   },
   {
     path: '/shops',
@@ -51,6 +58,11 @@ const routes = [
     path: '/item/cart',
     name: 'cart',
     component: Cart
+  },
+  {
+    path: '/item/checkout',
+    name: 'checkout',
+    component: Checkout
   },
   {
     path: '/about',

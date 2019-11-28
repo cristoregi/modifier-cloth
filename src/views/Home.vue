@@ -3,7 +3,8 @@
     <div 
       class="bg-fixed" 
       style="background-image"
-    ><img src="@/assets/images/home2.png"></div>
+    ><img src="@/assets/images/home2.png">
+    </div>
     <div class="flex justify-center">
       <div class="p-24 flex flex-wrap items-center justify-center">
         <div class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-lg">
@@ -19,7 +20,13 @@
             <!-- <span class="block opacity-75 -mb-1">T-shirt</span> -->
             <div class="flex justify-between">
               <span class="block font-semibold text-xl">T-Shirt</span>
-              <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
+              <router-link
+                class="nav-link"
+                :to="{ name: 'tshirts' }"
+                active-class="active"
+              >
+                <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
+              </router-link>
             </div>
           </div>
         </div>
@@ -36,7 +43,13 @@
             <!-- <span class="block opacity-75 -mb-1">Outdoor</span> -->
             <div class="flex justify-between">
               <span class="block font-semibold text-xl">Shirt</span>
-              <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
+              <router-link
+                class="nav-link"
+                :to="{ name: 'shirts' }"
+                active-class="active"
+              >
+                <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
+              </router-link>
             </div>
           </div>
         </div>
@@ -53,7 +66,13 @@
             <!-- <span class="block opacity-75 -mb-1">Jacket</span> -->
             <div class="flex justify-between">
               <span class="block font-semibold text-xl">Jacket</span>
-              <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
+              <router-link
+                class="nav-link"
+                :to="{ name: 'jackets' }"
+                active-class="active"
+              >
+                <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
+              </router-link>
             </div>
           </div>
         </div>

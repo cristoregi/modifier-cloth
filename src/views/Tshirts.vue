@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="flex item-strech h-full p-16">
+		<div class="flex item-strech h-full p-16 justify-center">
 			<aside>
 				<table class="table-fixed">
 					<thead>

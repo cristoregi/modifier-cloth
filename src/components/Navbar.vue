@@ -20,9 +20,9 @@
 						Shop
 						</a>
 					</router-link>
-					<a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
+					<!-- <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
 						About Us
-					</a>
+					</a> -->
 				</div>
 				<div>
 					<router-link
@@ -47,11 +47,40 @@
 					</router-link>
 				</div>
 				<div>
-					<span class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
-						<i class="fas fa-sign-out-alt"></i> Sign Out
-					</span>
+					<router-link
+						class="nav-link"
+						:to="{ name: 'home' }"
+						active-class="active"
+					>
+						<span class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
+							<i class="fas fa-sign-out-alt"></i> Sign Out
+						</span>
+					</router-link>
 				</div>
 			</div>
 		</nav>
 	</div>
 </template>
+
+<script>
+import modal from '../components/LogoutModal';
+
+export default {
+	components: {
+		modal,
+	},
+	data () {
+		return {
+			isModalVisible: false,
+		};
+	},
+	methods: {
+		showModal() {
+			this.isModalVisible = true;
+		},
+		closeModal() {
+			this.isModalVisible = false;
+		}
+	},
+}
+</script>
