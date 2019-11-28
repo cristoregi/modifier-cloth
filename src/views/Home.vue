@@ -13,12 +13,12 @@
           </svg>
           <div class="relative pt-10 px-10 flex items-center justify-center">
             <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
-            <img class="relative w-full" src="@/assets/images/Borneosia.png" alt="">
+            <img class="relative w-full" src="@/assets/images/men.jpg" alt="">
           </div>
           <div class="relative text-white px-6 pb-6 mt-6">
-            <span class="block opacity-75 -mb-1">T-shirt</span>
+            <!-- <span class="block opacity-75 -mb-1">T-shirt</span> -->
             <div class="flex justify-between">
-              <span class="block font-semibold text-xl">Borneosia</span>
+              <span class="block font-semibold text-xl">T-Shirt</span>
               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
             </div>
           </div>
@@ -30,13 +30,13 @@
           </svg>
           <div class="relative pt-10 px-10 flex items-center justify-center">
             <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
-            <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png" alt="">
+            <img class="relative w-full" src="@/assets/images/cewek.jpg" alt="">
           </div>
           <div class="relative text-white px-6 pb-6 mt-6">
-            <span class="block opacity-75 -mb-1">Outdoor</span>
+            <!-- <span class="block opacity-75 -mb-1">Outdoor</span> -->
             <div class="flex justify-between">
-              <span class="block font-semibold text-xl">Monstera</span>
-              <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$45.00</span>
+              <span class="block font-semibold text-xl">Shirt</span>
+              <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
             </div>
           </div>
         </div>
@@ -47,13 +47,13 @@
           </svg>
           <div class="relative pt-10 px-10 flex items-center justify-center">
             <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
-            <img class="relative w-50" src="@/assets/images/jacket.png" alt="">
+            <img class="relative w-50" src="@/assets/images/children.jpg" alt="">
           </div>
           <div class="relative text-white px-6 pb-6 mt-6">
-            <span class="block opacity-75 -mb-1">Jacket</span>
+            <!-- <span class="block opacity-75 -mb-1">Jacket</span> -->
             <div class="flex justify-between">
-              <span class="block font-semibold text-xl">Oak Tree</span>
-              <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
+              <span class="block font-semibold text-xl">Jacket</span>
+              <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Details</span>
             </div>
           </div>
         </div>

@@ -13,6 +13,17 @@
 							<td class="border px-16 py-2">
 								<router-link
 									class="nav-link"
+									:to="{ name: 'shop' }"
+									active-class="active"
+								>
+									All Category
+								</router-link>
+							</td>
+						</tr>
+						<tr>
+							<td class="border px-16 py-2">
+								<router-link
+									class="nav-link"
 									:to="{ name: 'tshirts' }"
 									active-class="active"
 								>
@@ -46,7 +57,7 @@
 				</table>
 			</aside>
 			<main>
-				<h1 class="px-8">ALL PRODUCTS</h1>
+				<h1 class="px-8">T-SHIRT</h1>
 				<div class="flex">
 					<div class="flex-shrink-0 m-6 relative overflow-hidden bg-gray-800 rounded-lg max-w-xs shadow-lg">
           <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
@@ -61,13 +72,7 @@
             <!-- <span class="block opacity-75 -mb-1">Jacket</span> -->
             <div class="flex justify-between">
               <span class="block font-semibold text-xl">Borneosia</span>
-							<router-link
-								class="nav-link"
-								:to="{ name: 'details' }"
-								active-class="active"
-							>
-              	<span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Rp 89.000</span>
-							</router-link>
+              <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Rp 89.000</span>
             </div>
           </div>
         </div>
@@ -84,13 +89,7 @@
             <!-- <span class="block opacity-75 -mb-1">Jacket</span> -->
             <div class="flex justify-between">
               <span class="block font-semibold text-xl">Imagination</span>
-							<router-link
-								class="nav-link"
-								:to="{ name: 'details' }"
-								active-class="active"
-							>
-              	<span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Rp 99.000</span>
-							</router-link>
+              <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Rp 99.000</span>
             </div>
           </div>
         </div>
@@ -107,13 +106,7 @@
             <!-- <span class="block opacity-75 -mb-1">Jacket</span> -->
             <div class="flex justify-between">
               <span class="block font-semibold text-xl">Boost Now!</span>
-              <router-link
-								class="nav-link"
-								:to="{ name: 'details' }"
-								active-class="active"
-							>
-								<span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Rp 79.000</span>
-							</router-link>
+              <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Rp 79.000</span>
             </div>
           </div>
         </div>
@@ -122,13 +115,3 @@
 		</div>
 	</div>
 </template>
-
-<script>
-import Navbar from '../components/Navbar';
-
-export default {
-	components: {
-		Navbar
-	}
-}
-</script>
