@@ -11,6 +11,7 @@ import Jackets from '../views/Jackets.vue'
 import Login from '../views/Login.vue'
 import Checkout from '../views/Checkout.vue'
 import Register from '../views/Register.vue'
+import RegSuccess from '../views/RegisterSuccess.vue'
 
 Vue.use(VueRouter)
 
@@ -69,6 +70,11 @@ const routes = [
     path: '/register',
     name: 'register',
     component: Register
+  },
+  {
+    path: '/register/success',
+    name: 'regSuccess',
+    component: RegSuccess
   },
   {
     path: '/about',

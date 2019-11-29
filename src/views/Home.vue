@@ -15,6 +15,16 @@
           Sign In
         </button>
       </router-link>
+      <h2 class="py-2 px-2 text-md text-white">Or maybe</h2>
+      <router-link
+        class="nav-link"
+        :to="{ name: 'register' }"
+        active-class="active"
+      >
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded">
+          Register
+        </button>
+      </router-link>
     </div>
     </div>
     <div class="flex justify-center">
