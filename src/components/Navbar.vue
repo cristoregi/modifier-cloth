@@ -46,16 +46,27 @@
 						</span>
 					</router-link>
 				</div>
-				<div>
+				<div v-if="login == false">
 					<router-link
 						class="nav-link"
-						:to="{ name: 'home' }"
+						:to="{ name: 'login' }"
 						active-class="active"
 					>
 						<span class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
-							<i class="fas fa-sign-out-alt"></i> Sign Out
+							<i class="fas fa-sign-out-alt"></i> Login
 						</span>
 					</router-link>
+				</div>
+				<div v-if="login == false">
+					
+						<span @click="showModal" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-400 text-white mr-4">
+							<i class="fas fa-sign-out-alt"></i> Sign Out
+						</span>
+
+						<modal
+								v-show="isModalVisible"
+								@close="closeModal"
+							/>
 				</div>
 			</div>
 		</nav>
@@ -71,6 +82,7 @@ export default {
 	},
 	data () {
 		return {
+			login:false,
 			isModalVisible: false,
 		};
 	},
