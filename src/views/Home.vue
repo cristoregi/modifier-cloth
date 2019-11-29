@@ -4,6 +4,18 @@
       class="bg-fixed" 
       style="background-image"
     ><img src="@/assets/images/home2.png">
+    <div class="flex justify-center pt-16">
+      <h2 class="py-2 px-2 text-md text-white">Have an account?</h2>
+      <router-link
+        class="nav-link"
+        :to="{ name: 'login' }"
+        active-class="active"
+      >
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded">
+          Sign In
+        </button>
+      </router-link>
+    </div>
     </div>
     <div class="flex justify-center">
       <div class="p-24 flex flex-wrap items-center justify-center">
