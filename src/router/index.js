@@ -10,6 +10,7 @@ import Cart from '../views/Cart.vue'
 import Jackets from '../views/Jackets.vue'
 import Login from '../views/Login.vue'
 import Checkout from '../views/Checkout.vue'
+import Register from '../views/Register.vue'
 
 Vue.use(VueRouter)
 
@@ -63,6 +64,11 @@ const routes = [
     path: '/item/checkout',
     name: 'checkout',
     component: Checkout
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: Register
   },
   {
     path: '/about',
