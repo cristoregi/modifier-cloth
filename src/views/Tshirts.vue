@@ -21,7 +21,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="border px-16 py-2">
+							<td class="border px-16 py-2 bg-gray-300">
 								<router-link
 									class="nav-link"
 									:to="{ name: 'tshirts' }"
